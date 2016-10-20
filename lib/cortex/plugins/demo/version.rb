@@ -1,7 +1,7 @@
 module Cortex
   module Plugins
-    module Core
-      VERSION = '0.3.1'
+    module Demo
+      VERSION = '1.4.2'
     end
   end
 end

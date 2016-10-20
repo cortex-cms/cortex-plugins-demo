@@ -1,6 +1,6 @@
 module Plugins
-  module Core
-    class DemoCell < Plugins::Core::Cell
+  module Demo
+    class DemoCell < Plugins::Demo::Cell
       def show
         render
       end

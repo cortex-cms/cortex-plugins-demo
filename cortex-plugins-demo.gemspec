@@ -1,17 +1,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "cortex/plugins/core/version"
+require "cortex/plugins/demo/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "cortex-plugins-test"
-  s.version     = Cortex::Plugins::Core::VERSION
+  s.name        = "cortex-plugins-demo"
+  s.version     = Cortex::Plugins::Demo::VERSION
   s.authors     = ["CareerBuilder Employer Site & Content Products"]
   s.email       = ["EmployerSiteContentProducts@cb.com"]
 
   s.summary     = %q{A Test / Demo Plugin for Cortex CMS}
-  s.homepage    = "https://github.com/cortex-cms/cortex-plugins-test"
+  s.homepage    = "https://github.com/cortex-cms/cortex-plugins-demo"
   s.license     = "Apache-2.0"
 
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE.md", "Rakefile", "README.md"]
